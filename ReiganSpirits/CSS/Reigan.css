@@ -1,0 +1,209 @@
+
+html {
+    box-sizing: border-box;
+  }
+  body {
+      background-image: url('https://spiritsandsuch.com/wp-content/uploads/2019/02/repeatingbackground.jpg');
+      background-position: top center;
+      background-repeat: repeat;
+      font-family: 'Times New Roman', Times, serif;
+      color: #000000;
+      font-size: 16px;
+      line-height: 1.5;
+      cursor: default;
+      cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6M0EwMEYyRjlDMjZFMTFFNUI4QkRFMkRBRDg3QkNFRUQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6M0EwMEYyRkFDMjZFMTFFNUI4QkRFMkRBRDg3QkNFRUQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozQTAwRjJGN0MyNkUxMUU1QjhCREUyREFEODdCQ0VFRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozQTAwRjJGOEMyNkUxMUU1QjhCREUyREFEODdCQ0VFRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pi/X/ugAAAY6SURBVHja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')
+, auto; 
+  }
+  html, body {
+      margin: 0;
+  }
+  h1, h2, h3 {
+      font-family: 'Press Start 2P', cursive;;
+      color: #000000;
+      font-weight: normal;
+      word-break: break-word;
+      text-align: center;
+  }
+  h1 {}
+  h2 {}
+  h3 {}
+  .yolo{
+      text-align: center;
+  }
+  .entry-footer{
+      text-align: center;
+  }
+  .entry-content{
+      text-align: center;
+  }
+  .site {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1em;
+  }
+  .site-header {
+      text-align: center;
+      margin-top: 16px;
+      margin-top: 1rem;
+  }
+  .site img {
+      max-width: 100%;
+      height: 100%;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#child{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+  .home h1 strong {
+      font-weight: normal;
+      color: #aa1210;
+      text-transform: uppercase;
+      font-size: 48px;
+      font-size: 3rem;
+  }
+  .home h2 {
+      font-family: bangers, cursive;
+      color: slateblue;
+      font-size: 32px;
+      font-size: 2rem;
+      line-height: 1.2;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .counter {
+      font-family: "Comic Sans MS", "ChalkboardSE-Light", cursive, sans-serif;
+      margin: 16px 0;
+      margin: 1rem 0;
+      text-align: center;
+      font-size: 24px;
+      font-size: 1.5rem;
+  }
+  .num {
+      font-family: "Cursed Timer", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      background: #000000;
+      color: #59e62f;
+      padding: 0.25em;
+      letter-spacing: 2px;
+      border: inset;
+  }
+  /* Alignment (for images) */
+  .alignleft {
+      display: inline;
+      float: left;
+      margin-right: 1.5em;
+} 
+  .alignright {
+      display: inline;
+      float: right;
+      margin-left: 1.5em;
+  }
+  .aligncenter {
+      clear: both;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  img.alignleft,
+  img.alignright {
+      float: none;
+      margin: 0 auto 1.5em;
+      display: block;
+  }
+  /*Media Queries*/
+  @media only screen and (max-width: 480px) {
+    .home h1 strong {
+        font-size: 76px;
+        font-size: 4rem;
+      }
+      .home h2 {
+          font-size: 42px;
+          font-size: 2.625rem;
+      }
+  }
+  .entry-footer img{
+    width: 50%;
+    height: 30%;
+}
+.yolo img{
+    text-align: center;
+    width: 50%;
+    height: 40%;
+}
+  @media only screen and (max-width: 640px) {
+      .half_columns,
+      .one_third_columns,
+      .two_thirds_columns {
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .yolo img{
+          text-align: center;
+          width: 100%;
+          height: 50%;
+      }
+      .entry-footer img{
+          width: 100%;
+          height: 30%;
+      }
+      .col-1,
+      .col-2 {
+          padding: 0 16px;
+          padding: 0 1rem;
+      }
+      .col-1 img,
+      .col-2 img {
+          width: auto;
+      }
+      .half_columns .col-1,
+      .half_columns .col-2 {
+          width: 50%;
+      }
+      .one_third_columns .col-1,
+      .two_third_columns .col-2 {
+          width: 33.33%;
+      }
+      .one_third_columns .col-2,
+      .two_third_columns .col-1 {
+          width: 66.67%;
+    }
+      img.alignleft {
+          display: inline;
+          float: left;
+          margin-right: 1.5em;
+          margin-bottom: 0;
+      }
+      img.alignright {
+          display: inline;
+          float: right;
+          margin-left: 1.5em;
+          margin-bottom: 0;
+      }
+  }
+  /*Font Timers*/
+  @font-face {
+      font-family: 'Cursed Timer';
+      src: url('fonts/cursedtimerulil-webfont.woff2') format('woff2'),
+           url('fonts/cursedtimerulil-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  @font-face {
+      font-family: 'Manaspace';
+      src: url('fonts/manaspc-webfont.woff2') format('woff2'),
+           url('fonts/manaspc-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
